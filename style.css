@@ -115,19 +115,12 @@ section:not(:first-child, #sewamobil) {
   }
 }
 @media (min-width: 768px) {
-  section:not(:first-child, #sewamobil) {
-    min-height: 100vh;
-    padding: 75px 0;
-  }
   .nabil-container {
     padding-right: 1.75rem;
     padding-left: 1.75rem;
   }
   .nabil-title {
     font-size: 1.75rem;
-  }
-  #sewamobil {
-    padding: 0;
   }
   #sewamobil .nabil-title {
     font-size: 2.5rem;
@@ -138,6 +131,7 @@ section:not(:first-child, #sewamobil) {
 }
 @media (min-width: 992px) {
   section:not(:first-child, #sewamobil) {
+    min-height: 100vh;
     padding: 0;
   }
   .nabil-container {
